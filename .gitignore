@@ -1,0 +1,9 @@
+.env
+wkhtmltox-0.12.6-1.msvc2015-win64.exe
+/src/assignment_omni/llm/__pycache__
+/src/assignment_omni/rag/__pycache__
+/src/assignment_omni/vectorstore/__pycache__
+/src/assignment_omni/graph/__pycache__
+/src/assignment_omni/config/__pycache__
+/src/assignment_omni/clients/__pycache__
+/src/assignment_omni/__pycache__
