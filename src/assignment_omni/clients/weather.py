@@ -30,6 +30,11 @@ class OpenWeatherClient:
         self._api_key = api_key
         self._client = httpx.Client(timeout=timeout_s)
         self._base_url = "https://api.openweathermap.org/data/2.5/weather"
+    
+    @property
+    def api_key(self) -> str:
+        """Get the API key."""
+        return self._api_key
 
     def fetch_weather(self, query: WeatherQuery) -> Dict[str, Any]:
         params = query.to_params()
